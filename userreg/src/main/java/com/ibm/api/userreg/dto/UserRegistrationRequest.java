@@ -17,9 +17,6 @@ public class UserRegistrationRequest implements Serializable{
 
 	private static final long serialVersionUID = -3747898414345347154L;
 
-	@NotNull(message = "UserName can not be null")
-	@NotEmpty(message = "UserName can not be empty")
-	@NotBlank(message = "UserName can not be blank")
 	String username;
 	
 	@NotNull(message = "Password can not be null")
